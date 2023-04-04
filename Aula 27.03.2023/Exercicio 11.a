@@ -1,0 +1,14 @@
+Program Pzim ;
+var
+A: Real;
+B: Real;
+C: Real;
+Area: Real;
+Begin
+Write('Qual o comprimento? ');
+read(A);
+Write('Qual a altura? ');
+read(C);
+Area:=(A*C)/2;
+Write('Area do Triangulo:',Area:5:1);
+End.
